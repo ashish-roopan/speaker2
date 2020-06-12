@@ -57,8 +57,8 @@
         <option value="2">Poor</option>
         <option value="1">Bad</option>
       </select><br><br><br>
-       <label for="wn_r_2">2. How would you rate the speech synthesized using Wavenet (Clarity).</label>
-      <select name="wn_r_2" id="wn_r_2" required="">
+       <label for="wn_c_2">2. How would you rate the speech synthesized using Wavenet (Clarity).</label>
+      <select name="wn_c_2" id="wn_c_2" required="">
         <option value="Choose" selected="" disabled="">Choose</option>
         <option value="5">Excellent</option>
         <option value="4">Good</option>
