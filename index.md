@@ -39,7 +39,7 @@
     <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
       
     <fieldset id="fs-frm-selects">
-      <label for="timely">1. How well does Wavenet resemble Ground truth.</label>
+      <label for="wn_c_1">1. How well does Wavenet resemble Ground truth.</label>
       <select name="timely" id="timely" required="">
         <option value="Choose" selected="" disabled="">Choose</option>
         <option value="1">Excellent</option>
@@ -48,7 +48,7 @@
         <option value="7">Poor</option>
         <option value="9">Bad</option>
       </select>
-      <label for="timely">2. How would you rate the speech synthesized using Wavenet (Clarity).</label>
+      <label for="wn_r_1">2. How would you rate the speech synthesized using Wavenet (Clarity).</label>
       <select name="quality" id="quality" required="">
         <option value="Choose" selected="" disabled="">Choose</option>
         <option value="1">Excellent</option>
@@ -58,10 +58,9 @@
         <option value="9">Bad</option>
       </select>
     </fieldset>
-    
-    <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+
   </fieldset>
-  <input type="submit" value="Send Responses">
+  <button type="submit">Send Responses</button>
 </form>
 
 ### Support or Contact
