@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+## Voice Cloning - Neural TTS
 
-You can use the [editor on GitHub](https://github.com/sachp1/speaker2/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Please listen to the 3 audio samples. 
+The first file is the original voice of '*speaker1*'.<br>
+The other 2 files were generated using 2 different neural Text to Speech Networks.<br><br>
+Listen to the audio files and provide a score in the google form.<br>
+Give the 2 audio files scores (from 1-5) based on:
+1. How well it resembles the original speaker
+2. Quality of generated speech
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<table border="0" width="20%" style="font-size:16px">
+  <tbody>
+  <tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+    Speaker Ground Truth</th></tr>
+    
+  <tr>
+  <td>
+  <audio controls="" preload="none" style="height:30px">
+<source src="/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+    </td></tr><br>
+    <tr>
+    <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+      Wavenet vocoder</th></tr>
+  <tr>
+  <td>
+  <audio controls="" preload="none" style="height:30px">
+<source src="/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+    </td></tr>
+  
+  <tr>
+    <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+  WAVEGLOW vocoder</th></tr>
+ 
+  <tr>
+  <td>
+  <audio controls="" preload="none" style="height:30px">
+ <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+</td></tr>
+ 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+ </tbody>
+ </table>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sachp1/speaker2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
-
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  
