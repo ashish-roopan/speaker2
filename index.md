@@ -17,7 +17,7 @@ Give the 2 audio files scores (from 1-5) based on:
   <tr>
   <td>
   <audio controls="" preload="none" style="height:30px">
-<source src="/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+<source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
     </td></tr><br>
     <tr>
     <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
@@ -25,7 +25,7 @@ Give the 2 audio files scores (from 1-5) based on:
   <tr>
   <td>
   <audio controls="" preload="none" style="height:30px">
-<source src="/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+<source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
     </td></tr>
   
   <tr>
