@@ -84,8 +84,5 @@
               </tbody>
             </table>
       </div>
-    <button type="submit">Send Responses</button>
-</div>
-</form>
-</body>
-</html>
+	    <button type="submit">Send Responses</button></form>
+
