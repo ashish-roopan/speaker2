@@ -54,7 +54,6 @@
               <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
                 </td></tr>
               </tbody></table>
-          <fieldset id="fs-frm-selects">
               <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_1" id="n_1_1" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -63,8 +62,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
-          <fieldset id="fs-frm-selects">
+              </select><br>
 		  <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_1" id="n_1_2" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -73,8 +71,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
-          <fieldset id="fs-frm-selects">
+              </select><br>
 		 <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_1" id="n_1_3" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -83,7 +80,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
+              </select><br>
 	  <table border="0" width="20%" style="font-size:16px">
             <tbody>
               <tr>
@@ -94,7 +91,6 @@
                   </td></tr>
               </tbody>
             </table>
-	    <fieldset id="fs-frm-selects">
               <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_2" id="n_2_1" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -103,8 +99,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
-          <fieldset id="fs-frm-selects">
+              </select><br>
 		  <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_2" id="n_2_2" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -113,8 +108,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
-          <fieldset id="fs-frm-selects">
+              </select><br>
 		 <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_2" id="n_1_3" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -123,7 +117,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
+              </select><br>
    	</div><br><br>
 	<div class='grrp'>
 	<h3>Speaker2</h3>
@@ -144,7 +138,6 @@
               <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
                 </td></tr>
               </tbody></table>
-          <fieldset id="fs-frm-selects">
               <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_1" id="n_1_1" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -153,8 +146,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
-          <fieldset id="fs-frm-selects">
+              </select><br>
 		  <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_1" id="n_1_2" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -163,8 +155,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
-          <fieldset id="fs-frm-selects">
+              </select><br>
 		 <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_1" id="n_1_3" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -173,7 +164,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
+              </select><br>
 	  <table border="0" width="20%" style="font-size:16px">
             <tbody>
               <tr>
@@ -184,7 +175,6 @@
                   </td></tr>
               </tbody>
             </table>
-	    <fieldset id="fs-frm-selects">
               <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_2" id="n_2_1" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -193,8 +183,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
-          <fieldset id="fs-frm-selects">
+              </select><br>
 		  <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_2" id="n_2_2" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -203,8 +192,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
-          <fieldset id="fs-frm-selects">
+              </select><br>
 		 <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
               <select name="n_2" id="n_1_3" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
@@ -213,7 +201,7 @@
                 <option value="3">Good</option>
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
-              </select><br></fieldset>
+              </select><br>
    	</div>
 	    <button type="submit">Send Responses</button>
 
