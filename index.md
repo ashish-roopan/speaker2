@@ -66,6 +66,7 @@
               </select><br></fieldset>
           <fieldset id="fs-frm-selects">
           <fieldset id="fs-frm-selects">
+	  </div>
         <div class="rows">
           <table border="0" width="20%" style="font-size:16px">
             <tbody>
@@ -79,7 +80,7 @@
                 </tr>
               </tbody>
             </table>
-          </div>
+ 
 
         
 
@@ -87,7 +88,6 @@
 
       </div>
     <button type="submit">Send Responses</button>
-
     </div>
 </div>
 </form>
