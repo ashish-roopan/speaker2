@@ -1,6 +1,20 @@
 ## Voice Cloning - Neural TTS
 
 ### Please listen to the 3 audio samples. 
+<style>
+
+        h1 {
+
+            text-align: center;
+
+            margin: 20px;
+
+        }
+		.grrp{
+		text-align: center;
+		padding: 20px;
+        margin: 20px;		}
+  </style>
 <body>
 
 <div class="container">
@@ -68,10 +82,7 @@
 
     </div>
     </div>
-    
-
-    </div>
-
+\</div>
 </form>
 </body>
 </html>
