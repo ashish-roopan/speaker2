@@ -18,7 +18,7 @@
     </style>
 </head>
 <body>
-<div class="w3-container">
+<div class="grrp">
   <h3>Speaker1</h3>
   <form id="fs-frm" name="survey-form-test" accept-charset="utf-8" action="https://formspree.io/sachinprakash.itis@gmail.com" method="post">
     <fieldset id="fs-frm-inputs">
@@ -78,11 +78,9 @@
               <tr>
                 <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
               <tr>
-                <td>
-                  <audio controls="" preload="none" style="height:30px">
+                <td><audio controls="" preload="none" style="height:30px">
                   <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
-                  </td>
-                </tr>
+                  </td></tr>
               </tbody>
             </table>
       </div>
