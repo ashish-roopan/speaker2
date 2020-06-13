@@ -54,8 +54,8 @@
                 <option value="1">Poor</option>
               </select><br></fieldset>
           <fieldset id="fs-frm-selects">
-		  <label for="n_1_2">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_1_1" id="n_1_1" required="">
+		  <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_1" id="n_1_1" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -64,8 +64,8 @@
                 <option value="1">Poor</option>
               </select><br></fieldset>
           <fieldset id="fs-frm-selects">
-		 <label for="n_1_3">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_1_1" id="n_1_1" required="">
+		 <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_1" id="n_1_1" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
