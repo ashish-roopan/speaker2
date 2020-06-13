@@ -91,8 +91,8 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_2" id="n_2_1" required="">
+              <label for="g_1">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="g_1" id="g_1_1" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -100,8 +100,8 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-		  <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_2" id="n_2_2" required="">
+		  <label for="g_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="g_1" id="g_1_2" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -109,8 +109,8 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-		 <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_2" id="n_1_3" required="">
+		 <label for="g_1">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="g_1" id="g_1_3" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -138,8 +138,8 @@
               <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
                 </td></tr>
               </tbody></table>
-              <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_1" id="n_1_1" required="">
+              <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_2" id="n_2_1" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -147,8 +147,8 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-		  <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_1" id="n_1_2" required="">
+		  <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_2" id="n_2_2" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -156,8 +156,8 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-		 <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_1" id="n_1_3" required="">
+		 <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_2" id="n_2_3" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -175,8 +175,8 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_2" id="n_2_1" required="">
+              <label for="g_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="g_2" id="g_2_1" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -184,8 +184,8 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-		  <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_2" id="n_2_2" required="True">
+		  <label for="g_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="g_2" id="g_2_2" required="True">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -193,8 +193,8 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-		 <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_2" id="n_1_3" required="true">
+		 <label for="g_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="g_2" id="g_2_3" required="true">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
