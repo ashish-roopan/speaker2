@@ -10,22 +10,17 @@
     <title>FormSubmit Demo</title>
 
     <style>
-
         h1 {
             text-align: center;
             margin: 20px;
        	    }
-		.grrp{
-		text-align: center;
-		padding: 10px;
-		margin: 10px;		
-	   		}
+	.grrp{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;}
     </style>
-
 </head>
-
 <body>
-
 <div class="w3-container">
   <h3>Speaker1</h3>
   <form id="fs-frm" name="survey-form-test" accept-charset="utf-8" action="https://formspree.io/sachinprakash.itis@gmail.com" method="post">
@@ -33,7 +28,6 @@
       <label for="email-address">Email Address</label>
       <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
       <h6>Please listen the the audio below anf asibfaiubfi aebfiauebfiaebfiaebfi</h6>
-
       <div class='grrp'>
         <table border="0" width="20%" style="font-size:16px">
           <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
@@ -46,7 +40,6 @@
           <table border="0" width="20%" style="font-size:16px">
               <tbody>
                 <tr>
-
                 <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
                   Wavenet vocoder</th></tr>
               <tr>
@@ -80,12 +73,6 @@
                 </tr>
               </tbody>
             </table>
- 
-
-        
-
-      
-
       </div>
     <button type="submit">Send Responses</button>
     </div>
