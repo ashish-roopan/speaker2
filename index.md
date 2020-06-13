@@ -34,7 +34,7 @@
     <fieldset id="fs-frm-inputs" style="border:0px solid black;">
       <label for="email-address">Email Address</label>
       <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
-      <h6>Listen to the original audio files of 20 different speakers and provide feedback on the synthesized waveforms using wavenet and WAVEGLOW vocoders</h6><br><p>The synthesized sentence is : "Intelligent cities are urban areas that use different types of electronic internet of things sensors"</p> <br>
+      <h6>Listen to the original audio files of 20 different speakers and provide feedback on the synthesized waveforms produced using wavenet and WAVEGLOW vocoders</h6><br><p>The synthesized sentence is : "Intelligent cities are urban areas that use different types of electronic internet of things sensors"</p> <br>
       <div class='grrp'>
 	<h3>Speaker1</h3>
         <table border="0" width="20%" style="font-size:16px">
@@ -63,7 +63,7 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-		  <label for="n_1">How would you rate the speech Quality </label>
+		  <label for="n_1">How would you rate the speech Quality (clarity)</label>
               <select name="n_1" id="n_1_2" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
@@ -72,7 +72,7 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-		 <label for="n_1">How would you rate the synthesized audio</label>
+		 <label for="n_1">How would you rate the synthesized audio (is the sentence fully reconstructed)</label>
               <select name="n_1" id="n_1_3" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
