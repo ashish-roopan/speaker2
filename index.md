@@ -1,11 +1,7 @@
 ## Voice Cloning - Neural TTS
-### Please listen to the 3 audio samples. 
-<html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="w3.css">
-    <title>FormSubmit Demo</title>
+    <title>Voice cloning MOS</title>
     <style>
         h1 {
             text-align: center;
@@ -44,8 +40,8 @@
                 </td></tr>
               </tbody></table>
           <fieldset id="fs-frm-selects">
-              <label for="n_1_1">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_1_1" id="n_1_1" required="">
+              <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_1" id="n_1_1" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -55,7 +51,7 @@
               </select><br></fieldset>
           <fieldset id="fs-frm-selects">
 		  <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_1" id="n_1_1" required="">
+              <select name="n_1" id="n_1_2" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -65,7 +61,7 @@
               </select><br></fieldset>
           <fieldset id="fs-frm-selects">
 		 <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_1" id="n_1_1" required="">
+              <select name="n_1" id="n_1_3" required="">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -83,6 +79,125 @@
                   </td></tr>
               </tbody>
             </table>
-      </div>
-	    <button type="submit">Send Responses</button></form>
+	    <fieldset id="fs-frm-selects">
+              <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_2" id="n_2_1" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
+          <fieldset id="fs-frm-selects">
+		  <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_2" id="n_2_2" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
+          <fieldset id="fs-frm-selects">
+		 <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_2" id="n_1_3" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
+   	</div>
+	          <div class='grrp'>
+        <table border="0" width="20%" style="font-size:16px">
+          <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+          Speaker Ground Truth</th></tr>
+          <tr><td><audio controls="" preload="none" style="height:30px">
+          <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+          </td></tr></tbody></table>
+          <h6>Listen to the synthesized audio and chose a rating</h6>
+          <table border="0" width="20%" style="font-size:16px">
+              <tbody>
+                <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+                  Wavenet vocoder</th></tr>
+              <tr>
+              <td>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+                </td></tr>
+              </tbody></table>
+          <fieldset id="fs-frm-selects">
+              <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_1" id="n_1_1" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
+          <fieldset id="fs-frm-selects">
+		  <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_1" id="n_1_2" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
+          <fieldset id="fs-frm-selects">
+		 <label for="n_1">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_1" id="n_1_3" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
+	  <table border="0" width="20%" style="font-size:16px">
+            <tbody>
+              <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
+              <tr>
+                <td><audio controls="" preload="none" style="height:30px">
+                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  </td></tr>
+              </tbody>
+            </table>
+	    <fieldset id="fs-frm-selects">
+              <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_2" id="n_2_1" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
+          <fieldset id="fs-frm-selects">
+		  <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_2" id="n_2_2" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
+          <fieldset id="fs-frm-selects">
+		 <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_2" id="n_1_3" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
+   	</div>
+	    <button type="submit">Send Responses</button>
 
