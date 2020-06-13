@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
+title: Voice cloning - Neural TTS
+description: Speech synthesis comparison of wavenet and waveglow vocoders
 github:
   is_project_page: false
