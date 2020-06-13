@@ -1,4 +1,4 @@
-## Voice Cloning - Neural TTS
+######Listen to the original audio files of 20 different speakers and provide a honest feedback on the synthesized waveforms using wavenet and WAVEGLOW######
 <head>
     <link rel="stylesheet" href="w3.css">
     <title>Voice cloning MOS</title>
