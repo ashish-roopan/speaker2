@@ -1,14 +1,11 @@
 ## Voice Cloning - Neural TTS
-
 ### Please listen to the 3 audio samples. 
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="w3.css">
-
     <title>FormSubmit Demo</title>
-
     <style>
         h1 {
             text-align: center;
@@ -57,8 +54,26 @@
                 <option value="1">Poor</option>
               </select><br></fieldset>
           <fieldset id="fs-frm-selects">
+		  <label for="n_1_2">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_1_1" id="n_1_1" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
           <fieldset id="fs-frm-selects">
-          <table border="0" width="20%" style="font-size:16px">
+		 <label for="n_1_3">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_1_1" id="n_1_1" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
+	  <table border="0" width="20%" style="font-size:16px">
             <tbody>
               <tr>
                 <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
@@ -72,7 +87,6 @@
             </table>
       </div>
     <button type="submit">Send Responses</button>
-   
 </div>
 </form>
 </body>
