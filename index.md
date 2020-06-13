@@ -1,85 +1,106 @@
 ## Voice Cloning - Neural TTS
 
 ### Please listen to the 3 audio samples. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>FormSubmit-dmo</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+<style>
+.cities {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+<body>
 
-<table border="0" width="20%" style="font-size:16px">
-  <tbody>
-  <tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
-    Speaker Ground Truth</th></tr>
-    
-  <tr>
-  <td>
-  <audio controls="" preload="none" style="height:30px">
-<source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
-    </td></tr><br><br>
-    <tr>
-    <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
-      Wavenet vocoder</th></tr>
-  <tr>
-  <td>
-  <audio controls="" preload="none" style="height:30px">
-<source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
-    </td></tr>
-  
-  <tr>
-    <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
-  WAVEGLOW vocoder</th></tr>
- 
-  <tr>
-  <td>
-  <audio controls="" preload="none" style="height:30px">
- <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
-</td></tr>
- </tbody>
- </table>
+<div class="container">
+  <h3>Speaker1</h3>
+  <form id="fs-frm" name="survey-form-test" accept-charset="utf-8" action="https://formspree.io/sachinprakash.itis@gmail.com" method="post">
+    <fieldset id="fs-frm-inputs">
+      <label for="email-address">Email Address</label>
+      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
+      <h6>Please listen the the audio below anf asibfaiubfi aebfiauebfiaebfiaebfi</h6>
 
-<form id="fs-frm" name="survey-form-test" accept-charset="utf-8" action="https://formspree.io/sachinprakash.itis@gmail.com" method="post">
-  <fieldset id="fs-frm-inputs">
-    <label for="email-address">Email Address</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+      <div class='form-group'>
+        <div class='rows'>
+        <table border="0" width="20%" style="font-size:16px">
+          <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+          Speaker Ground Truth</th></tr>
+          <tr><td><audio controls="" preload="none" style="height:30px">
+          <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+          </td></tr></tbody></table>
+        <div class="rows">
+          <h6>Listen to the synthesized audio and chose a rating</h6>
+          <table border="0" width="20%" style="font-size:16px">
+              <tbody>
+                <tr>
+
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+                  Wavenet vocoder</th></tr>
+              <tr>
+              <td>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+                </td></tr>
+              </tbody></table>
+          <fieldset id="fs-frm-selects">
+              <label for="n_1_1">1. How well does Wavenet resemble Ground truth.</label>
+              <select name="n_1_1" id="n_1_1" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br></fieldset>
+          <fieldset id="fs-frm-selects">
+          <fieldset id="fs-frm-selects">
+        <div class="rows">
+          <table border="0" width="20%" style="font-size:16px">
+            <tbody>
+              <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
+              <tr>
+                <td>
+                  <audio controls="" preload="none" style="height:30px">
+                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        
+
       
-    <fieldset id="fs-frm-selects">
-      <label for="wn_c_1">1. How well does Wavenet resemble Ground truth.</label>
-      <select name="wn_c_1" id="wn_c_1" required="">
-        <option value="Choose" selected="" disabled="">Choose</option>
-        <option value="5">Excellent</option>
-        <option value="4">Good</option>
-        <option value="3">Fair</option>
-        <option value="2">Poor</option>
-        <option value="1">Bad</option>
-      </select><br>
-      <label for="wn_r_1">2. How would you rate the speech synthesized using Wavenet (Clarity).</label>
-      <select name="wn_r_1" id="wn_r_1" required="">
-        <option value="Choose" selected="" disabled="">Choose</option>
-        <option value="5">Excellent</option>
-        <option value="4">Good</option>
-        <option value="3">Fair</option>
-        <option value="2">Poor</option>
-        <option value="1">Bad</option>
-      </select><br><br><br>
-       <label for="wn_c_2">2. How would you rate the speech synthesized using Wavenet (Clarity).</label>
-      <select name="wn_c_2" id="wn_c_2" required="">
-        <option value="Choose" selected="" disabled="">Choose</option>
-        <option value="5">Excellent</option>
-        <option value="4">Good</option>
-        <option value="3">Fair</option>
-        <option value="2">Poor</option>
-        <option value="1">Bad</option>
-      </select><br>
-       <label for="wn_r_2">2. How would you rate the speech synthesized using Wavenet (Clarity).</label>
-      <select name="wn_r_2" id="wn_r_2" required="">
-        <option value="Choose" selected="" disabled="">Choose</option>
-        <option value="5">Excellent</option>
-        <option value="4">Good</option>
-        <option value="3">Fair</option>
-        <option value="2">Poor</option>
-        <option value="1">Bad</option>
-      </select>
-    </fieldset>
+    <button type="submit">Send Responses</button>
 
-  </fieldset>
-  <button type="submit">Send Responses</button>
+      </div>
+
+    </div>
+    </div>
+    
+
+    </div>
+
+
+<br><br>###############################<br><br>
+
 </form>
+</body>
+</html>
 
 ### Support or Contact
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
