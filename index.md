@@ -195,7 +195,7 @@
               </select><br>
 		 <label for="g_2">1. How well does Wavenet resemble Ground truth.</label>
               <select name="g_2" id="g_2_3" required>
-                <option selected="" disabled="">Choose</option>
+                <option value="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
                 <option value="3">Good</option>
