@@ -13,11 +13,11 @@
 		.grrp{
 		text-align: center;
 		padding: 20px;
-        margin: 20px;		}
+       	        margin: 20px;		}
   </style>
 <body>
 
-<div class="container">
+<div class="grrp">
   <h3>Speaker1</h3>
   <form id="fs-frm" name="survey-form-test" accept-charset="utf-8" action="https://formspree.io/sachinprakash.itis@gmail.com" method="post">
     <fieldset id="fs-frm-inputs">
@@ -25,7 +25,7 @@
       <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
       <h6>Please listen the the audio below anf asibfaiubfi aebfiauebfiaebfiaebfi</h6>
 
-      <div class='rows'>
+      <div class='grrp'>
         <div class='rows'>
         <table border="0" width="20%" style="font-size:16px">
           <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
