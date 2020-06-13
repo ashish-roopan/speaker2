@@ -17,8 +17,8 @@
        	    }
 		.grrp{
 		text-align: center;
-		padding: 20px;
-		margin: 20px;		
+		padding: 10px;
+		margin: 10px;		
 	   		}
     </style>
 
@@ -35,7 +35,6 @@
       <h6>Please listen the the audio below anf asibfaiubfi aebfiauebfiaebfiaebfi</h6>
 
       <div class='grrp'>
-        <div class='rows'>
         <table border="0" width="20%" style="font-size:16px">
           <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
           Speaker Ground Truth</th></tr>
@@ -85,13 +84,12 @@
         
 
       
-    <button type="submit">Send Responses</button>
 
       </div>
+    <button type="submit">Send Responses</button>
 
     </div>
-    </div>
-\</div>
+</div>
 </form>
 </body>
 </html>
