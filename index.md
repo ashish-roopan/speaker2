@@ -185,7 +185,7 @@
                 <option value="1">Poor</option>
               </select><br>
 		  <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_2" id="n_2_2" required="">
+              <select name="n_2" id="n_2_2" required="True">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
@@ -194,7 +194,7 @@
                 <option value="1">Poor</option>
               </select><br>
 		 <label for="n_2">1. How well does Wavenet resemble Ground truth.</label>
-              <select name="n_2" id="n_1_3" required="">
+              <select name="n_2" id="n_1_3" required="true">
                 <option value="Choose" selected="" disabled="">Choose</option>
                 <option value="5">Excellent</option>
                 <option value="4">Very Good</option>
