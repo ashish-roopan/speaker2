@@ -1,4 +1,4 @@
-######Listen to the original audio files of 20 different speakers and provide a honest feedback on the synthesized waveforms using wavenet and WAVEGLOW######
+###### Please enter your email ID and rate the generated audio files
 <head>
     <link rel="stylesheet" href="w3.css">
     <title>Voice cloning MOS</title>
@@ -34,7 +34,7 @@
     <fieldset id="fs-frm-inputs" style="border:0px solid black;">
       <label for="email-address">Email Address</label>
       <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
-      <h6>Please listen the the audio below anf asibfaiubfi aebfiauebfiaebfiaebfi</h6>
+      <h6>Listen to the original audio files of 20 different speakers and provide a honest feedback on the synthesized waveforms using wavenet and WAVEGLOW</h6>
       <div class='grrp'>
 	<h3>Speaker1</h3>
         <table border="0" width="20%" style="font-size:16px">
