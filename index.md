@@ -3,20 +3,29 @@
     <link rel="stylesheet" href="w3.css">
     <title>Voice cloning MOS</title>
     <style>
-        h1 {
+         h1 {
             text-align: center;
             margin: 20px;
        	    }
+	h3{
+	  text-align: center;
+	  text-justify: inter-word;
+	}
+	h6{
+ 	 text-align: justify;
+  	text-justify: inter-word;
+	}
 	.grrp{
 	text-align: center;
 	padding: 10px;
-	margin: 10px;}
+	margin: 10px;
+		}
     </style>
 </head>
 <body>
 <div class="grrp">
   <form id="fs-frm" name="survey-form-test" accept-charset="utf-8" action="https://formspree.io/sachinprakash.itis@gmail.com" method="post">
-    <fieldset id="fs-frm-inputs">
+    <fieldset id="fs-frm-inputs" style="border:0px solid black;">
       <label for="email-address">Email Address</label>
       <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
       <h6>Please listen the the audio below anf asibfaiubfi aebfiauebfiaebfiaebfi</h6>
