@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title>Voice-clone-TTS</title>
-    <style>
-        h1 {
-            text-align: center;
-            margin: 20px;
-        }
-   
-    	.cities {
-     		text-align:left;
-     		border: 1px solid #c6c60.6;
-            margin: 20px;
-            padding: 15px;
-            }
-     </style>
-</head>
+## Voice Cloning - Neural TTS
 
+### Please listen to the 3 audio samples. 
 <body>
 
 <div class="w3-container">
