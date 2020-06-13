@@ -15,13 +15,13 @@
 </head>
 <body>
 <div class="grrp">
-  <h3>Speaker1</h3>
   <form id="fs-frm" name="survey-form-test" accept-charset="utf-8" action="https://formspree.io/sachinprakash.itis@gmail.com" method="post">
     <fieldset id="fs-frm-inputs">
       <label for="email-address">Email Address</label>
       <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
       <h6>Please listen the the audio below anf asibfaiubfi aebfiauebfiaebfiaebfi</h6>
       <div class='grrp'>
+	<h3>Speaker1</h3>
         <table border="0" width="20%" style="font-size:16px">
           <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
           Speaker Ground Truth</th></tr>
@@ -109,8 +109,9 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br></fieldset>
-   	</div>
-	          <div class='grrp'>
+   	</div><br><br>
+	<div class='grrp'>
+	<h3>Speaker2</h3>
         <table border="0" width="20%" style="font-size:16px">
           <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
           Speaker Ground Truth</th></tr>
