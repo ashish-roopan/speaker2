@@ -35,7 +35,6 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-        <div class="rows">
           <h6>Listen to the synthesized audio and chose a rating</h6>
           <table border="0" width="20%" style="font-size:16px">
               <tbody>
@@ -59,8 +58,6 @@
               </select><br></fieldset>
           <fieldset id="fs-frm-selects">
           <fieldset id="fs-frm-selects">
-	  </div>
-        <div class="rows">
           <table border="0" width="20%" style="font-size:16px">
             <tbody>
               <tr>
@@ -75,7 +72,7 @@
             </table>
       </div>
     <button type="submit">Send Responses</button>
-    </div>
+   
 </div>
 </form>
 </body>
