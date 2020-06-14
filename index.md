@@ -12,7 +12,7 @@
     text-justify: inter-word;
   }
   h6{
-   text-align: justify;
+    text-align: justify;
     text-justify: inter-word;
   }
   .grrp{
@@ -34,7 +34,7 @@
     <fieldset id="fs-frm-inputs" style="border:0px solid black;">
       <label for="email-address">Email Address</label>
       <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
-      <h6>Listen to the original audio files of 20 different speakers and provide feedback on the synthesized waveforms produced using wavenet and WAVEGLOW vocoders</h6>
+      <p>Listen to the original audio files of 20 different speakers and provide feedback on the synthesized waveforms produced using wavenet and WAVEGLOW vocoders</p>
   <div class='grrp'>
     <h3>Speaker1</h3>
         <table border="0" width="20%" style="font-size:16px">
@@ -43,8 +43,8 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <h6>Listen to the synthesized audio and chose a rating</h6>
-    <br><p>Sentence : "An intelligent city is an urban area that uses different types of electronic internet of things sensors"</p> <br>
+          <p>Listen to the synthesized audio and chose a rating</p>
+    <br><h6>Sentence : "An intelligent city is an urban area that uses different types of electronic internet of things sensors"</h6> <br>
           <table border="0" width="20%" style="font-size:16px">
               <tbody>
                 <tr>
@@ -55,7 +55,7 @@
               <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
                 </td></tr>
               </tbody></table>
-              <label for="sim_n">How well does Wavenet resemble Ground truth.</label>
+              <label for="sim_n">How well does Wavenet resemble Ground truth</label>
               <select name="sim_n" id="sim_n" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -73,7 +73,7 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)</label>
+     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
               <select name="synth_n" id="synth_n" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -92,7 +92,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">1. How well does Wavenet resemble Ground truth.</label>
+              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -101,7 +101,7 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-      <label for="speech_g">1. How well does Wavenet resemble Ground truth.</label>
+      <label for="speech_g">How would you rate the speech Quality (clarity)</label>
               <select name="speech_g" id="speech_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -110,7 +110,7 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-     <label for="synth_g">1. How well does Wavenet resemble Ground truth.</label>
+     <label for="synth_g">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
               <select name="synth_g" id="synth_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -129,7 +129,7 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <h6>Listen to the synthesized audio and chose a rating</h6>
+          <p>Listen to the synthesized audio and chose a rating</p>
     <br><p>Sentence : "An intelligent city is an urban area that uses different types of electronic internet of things sensors"</p> <br>
           <table border="0" width="20%" style="font-size:16px">
               <tbody>
@@ -141,7 +141,7 @@
               <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
                 </td></tr>
               </tbody></table>
-              <label for="sim_n">How well does Wavenet resemble Ground truth.</label>
+              <label for="sim_n">How well does Wavenet resemble Ground truth</label>
               <select name="sim_n" id="sim_n" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -159,7 +159,7 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)</label>
+     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
               <select name="synth_n" id="synth_n" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -178,7 +178,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">1. How well does Wavenet resemble Ground truth.</label>
+              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -187,7 +187,7 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-      <label for="speech_g">1. How well does Wavenet resemble Ground truth.</label>
+      <label for="speech_g">How would you rate the speech Quality (clarity)</label>
               <select name="speech_g" id="speech_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -196,7 +196,7 @@
                 <option value="2">Fair</option>
                 <option value="1">Poor</option>
               </select><br>
-     <label for="synth_g">1. How well does Wavenet resemble Ground truth.</label>
+     <label for="synth_g">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
               <select name="synth_g" id="synth_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
