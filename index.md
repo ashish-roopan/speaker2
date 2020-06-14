@@ -43,8 +43,7 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <p>Listen to the synthesized audio and chose a rating</p>
-          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <table style="width:100%; font-size:12px; text-align: left;">
           <tbody><tr>
           <th>Sentence</th>
           <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
@@ -134,8 +133,7 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <p>Listen to the synthesized audio and chose a rating</p>
-          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <table style="width:100%; font-size:12px; text-align: left;">
           <tbody><tr>
           <th>Sentence</th>
           <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
@@ -225,8 +223,7 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <p>Listen to the synthesized audio and chose a rating</p>
-          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <table style="width:100%; font-size:12px; text-align: left;">
           <tbody><tr>
           <th>Sentence</th>
           <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
@@ -316,8 +313,7 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <p>Listen to the synthesized audio and chose a rating</p>
-          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <table style="width:100%; font-size:12px; text-align: left;">
           <tbody><tr>
           <th>Sentence</th>
           <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
@@ -407,8 +403,7 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <p>Listen to the synthesized audio and chose a rating</p>
-          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <table style="width:100%; font-size:12px; text-align: left;">
           <tbody><tr>
           <th>Sentence</th>
           <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
@@ -498,8 +493,7 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <p>Listen to the synthesized audio and chose a rating</p>
-          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <table style="width:100%; font-size:12px; text-align: left;">
           <tbody><tr>
           <th>Sentence</th>
           <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
@@ -589,8 +583,7 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <p>Listen to the synthesized audio and chose a rating</p>
-          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <table style="width:100%; font-size:12px; text-align: left;">
           <tbody><tr>
           <th>Sentence</th>
           <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
@@ -680,8 +673,7 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <p>Listen to the synthesized audio and chose a rating</p>
-          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <table style="width:100%; font-size:12px; text-align: left;">
           <tbody><tr>
           <th>Sentence</th>
           <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
@@ -771,8 +763,7 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <p>Listen to the synthesized audio and chose a rating</p>
-          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <table style="width:100%; font-size:12px; text-align: left;">
           <tbody><tr>
           <th>Sentence</th>
           <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
@@ -862,8 +853,7 @@
           <tr><td><audio controls="" preload="none" style="height:30px">
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
-          <p>Listen to the synthesized audio and chose a rating</p>
-          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <table style="width:100%; font-size:12px; text-align: left;">
           <tbody><tr>
           <th>Sentence</th>
           <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
