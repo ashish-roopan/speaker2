@@ -56,7 +56,7 @@
                   Wavenet vocoder</th></tr>
               <tr>
               <td>
-              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/wnsamples/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
                 </td></tr>
               </tbody></table>
               <label for="sim_n">How well does Wavenet resemble Ground truth</label>
@@ -92,7 +92,7 @@
                 <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
               <tr>
                 <td><audio controls="" preload="none" style="height:30px">
-                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  <source src="https://sachp1.github.io/speaker2/wgsamples/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
                   </td></tr>
               </tbody>
             </table>
@@ -131,7 +131,7 @@
           <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
           Speaker Ground Truth</th></tr>
           <tr><td><audio controls="" preload="none" style="height:30px">
-          <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+          <source src="https://sachp1.github.io/speaker2/ogsamples/benedict_cumberbatch.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
           <table style="width:100%; font-size:12px; text-align: left;">
           <tbody><tr>
@@ -146,7 +146,7 @@
                   Wavenet vocoder</th></tr>
               <tr>
               <td>
-              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/wnsamples/benedict_cumberbatch.mp3" type="audio/mpeg">audio not supported</audio>
                 </td></tr>
               </tbody></table>
               <label for="sim_n">How well does Wavenet resemble Ground truth</label>
@@ -182,7 +182,7 @@
                 <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
               <tr>
                 <td><audio controls="" preload="none" style="height:30px">
-                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  <source src="https://sachp1.github.io/speaker2/wgsamples/benedict_cumberbatch.mp3" type="audio/mpeg">audio not supported</audio>
                   </td></tr>
               </tbody>
             </table>
