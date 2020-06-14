@@ -44,12 +44,12 @@
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
           <p>Listen to the synthesized audio and chose a rating</p>
-    <br><table style="width:100%; font-size:12px; text-align: left;">
-  <tbody><tr>
-    <th>Sentence</th>
-    <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
-  </tr>
-</tbody></table> <br>
+          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <tbody><tr>
+          <th>Sentence</th>
+          <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
+          </tr>
+          </tbody></table> <br>
           <table border="0" width="20%" style="font-size:16px">
               <tbody>
                 <tr>
@@ -135,12 +135,740 @@
           <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
           </td></tr></tbody></table>
           <p>Listen to the synthesized audio and chose a rating</p>
-    <br><table style="width:100%; font-size:12px; text-align: left;">
-  <tbody><tr>
-    <th>Sentence</th>
-    <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
-  </tr>
-</tbody></table><br>
+          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <tbody><tr>
+          <th>Sentence</th>
+          <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
+          </tr>
+          </tbody></table><br>
+          <table border="0" width="20%" style="font-size:16px">
+              <tbody>
+                <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+                  Wavenet vocoder</th></tr>
+              <tr>
+              <td>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+                </td></tr>
+              </tbody></table>
+              <label for="sim_n">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_n" id="sim_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_n">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_n" id="speech_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_n" id="synth_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    <table border="0" width="20%" style="font-size:16px">
+            <tbody>
+              <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
+              <tr>
+                <td><audio controls="" preload="none" style="height:30px">
+                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  </td></tr>
+              </tbody>
+            </table>
+              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_g" id="sim_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_g">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_g" id="speech_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_g">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_g" id="synth_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    </div>
+    <br>
+  <div class='grrp'>
+    <h3>Speaker3</h3>
+        <table border="0" width="20%" style="font-size:16px">
+          <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+          Speaker Ground Truth</th></tr>
+          <tr><td><audio controls="" preload="none" style="height:30px">
+          <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+          </td></tr></tbody></table>
+          <p>Listen to the synthesized audio and chose a rating</p>
+          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <tbody><tr>
+          <th>Sentence</th>
+          <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
+          </tr>
+          </tbody></table><br>
+          <table border="0" width="20%" style="font-size:16px">
+              <tbody>
+                <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+                  Wavenet vocoder</th></tr>
+              <tr>
+              <td>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+                </td></tr>
+              </tbody></table>
+              <label for="sim_n">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_n" id="sim_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_n">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_n" id="speech_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_n" id="synth_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    <table border="0" width="20%" style="font-size:16px">
+            <tbody>
+              <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
+              <tr>
+                <td><audio controls="" preload="none" style="height:30px">
+                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  </td></tr>
+              </tbody>
+            </table>
+              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_g" id="sim_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_g">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_g" id="speech_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_g">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_g" id="synth_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    </div>
+    <br>
+  <div class='grrp'>
+    <h3>Speaker4</h3>
+        <table border="0" width="20%" style="font-size:16px">
+          <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+          Speaker Ground Truth</th></tr>
+          <tr><td><audio controls="" preload="none" style="height:30px">
+          <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+          </td></tr></tbody></table>
+          <p>Listen to the synthesized audio and chose a rating</p>
+          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <tbody><tr>
+          <th>Sentence</th>
+          <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
+          </tr>
+          </tbody></table><br>
+          <table border="0" width="20%" style="font-size:16px">
+              <tbody>
+                <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+                  Wavenet vocoder</th></tr>
+              <tr>
+              <td>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+                </td></tr>
+              </tbody></table>
+              <label for="sim_n">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_n" id="sim_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_n">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_n" id="speech_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_n" id="synth_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    <table border="0" width="20%" style="font-size:16px">
+            <tbody>
+              <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
+              <tr>
+                <td><audio controls="" preload="none" style="height:30px">
+                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  </td></tr>
+              </tbody>
+            </table>
+              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_g" id="sim_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_g">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_g" id="speech_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_g">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_g" id="synth_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    </div>
+    <br>  
+  <div class='grrp'>
+    <h3>Speaker5</h3>
+        <table border="0" width="20%" style="font-size:16px">
+          <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+          Speaker Ground Truth</th></tr>
+          <tr><td><audio controls="" preload="none" style="height:30px">
+          <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+          </td></tr></tbody></table>
+          <p>Listen to the synthesized audio and chose a rating</p>
+          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <tbody><tr>
+          <th>Sentence</th>
+          <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
+          </tr>
+          </tbody></table><br>
+          <table border="0" width="20%" style="font-size:16px">
+              <tbody>
+                <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+                  Wavenet vocoder</th></tr>
+              <tr>
+              <td>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+                </td></tr>
+              </tbody></table>
+              <label for="sim_n">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_n" id="sim_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_n">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_n" id="speech_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_n" id="synth_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    <table border="0" width="20%" style="font-size:16px">
+            <tbody>
+              <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
+              <tr>
+                <td><audio controls="" preload="none" style="height:30px">
+                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  </td></tr>
+              </tbody>
+            </table>
+              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_g" id="sim_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_g">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_g" id="speech_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_g">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_g" id="synth_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    </div>
+    <br>
+  <div class='grrp'>
+    <h3>Speaker6</h3>
+        <table border="0" width="20%" style="font-size:16px">
+          <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+          Speaker Ground Truth</th></tr>
+          <tr><td><audio controls="" preload="none" style="height:30px">
+          <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+          </td></tr></tbody></table>
+          <p>Listen to the synthesized audio and chose a rating</p>
+          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <tbody><tr>
+          <th>Sentence</th>
+          <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
+          </tr>
+          </tbody></table><br>
+          <table border="0" width="20%" style="font-size:16px">
+              <tbody>
+                <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+                  Wavenet vocoder</th></tr>
+              <tr>
+              <td>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+                </td></tr>
+              </tbody></table>
+              <label for="sim_n">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_n" id="sim_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_n">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_n" id="speech_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_n" id="synth_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    <table border="0" width="20%" style="font-size:16px">
+            <tbody>
+              <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
+              <tr>
+                <td><audio controls="" preload="none" style="height:30px">
+                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  </td></tr>
+              </tbody>
+            </table>
+              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_g" id="sim_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_g">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_g" id="speech_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_g">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_g" id="synth_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    </div>
+    <br>
+  <div class='grrp'>
+    <h3>Speaker7</h3>
+        <table border="0" width="20%" style="font-size:16px">
+          <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+          Speaker Ground Truth</th></tr>
+          <tr><td><audio controls="" preload="none" style="height:30px">
+          <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+          </td></tr></tbody></table>
+          <p>Listen to the synthesized audio and chose a rating</p>
+          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <tbody><tr>
+          <th>Sentence</th>
+          <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
+          </tr>
+          </tbody></table><br>
+          <table border="0" width="20%" style="font-size:16px">
+              <tbody>
+                <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+                  Wavenet vocoder</th></tr>
+              <tr>
+              <td>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+                </td></tr>
+              </tbody></table>
+              <label for="sim_n">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_n" id="sim_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_n">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_n" id="speech_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_n" id="synth_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    <table border="0" width="20%" style="font-size:16px">
+            <tbody>
+              <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
+              <tr>
+                <td><audio controls="" preload="none" style="height:30px">
+                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  </td></tr>
+              </tbody>
+            </table>
+              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_g" id="sim_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_g">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_g" id="speech_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_g">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_g" id="synth_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    </div>
+    <br>
+  <div class='grrp'>
+    <h3>Speaker8</h3>
+        <table border="0" width="20%" style="font-size:16px">
+          <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+          Speaker Ground Truth</th></tr>
+          <tr><td><audio controls="" preload="none" style="height:30px">
+          <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+          </td></tr></tbody></table>
+          <p>Listen to the synthesized audio and chose a rating</p>
+          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <tbody><tr>
+          <th>Sentence</th>
+          <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
+          </tr>
+          </tbody></table><br>
+          <table border="0" width="20%" style="font-size:16px">
+              <tbody>
+                <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+                  Wavenet vocoder</th></tr>
+              <tr>
+              <td>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+                </td></tr>
+              </tbody></table>
+              <label for="sim_n">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_n" id="sim_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_n">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_n" id="speech_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_n" id="synth_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    <table border="0" width="20%" style="font-size:16px">
+            <tbody>
+              <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
+              <tr>
+                <td><audio controls="" preload="none" style="height:30px">
+                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  </td></tr>
+              </tbody>
+            </table>
+              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_g" id="sim_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_g">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_g" id="speech_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_g">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_g" id="synth_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    </div>
+    <br>
+  <div class='grrp'>
+    <h3>Speaker9</h3>
+        <table border="0" width="20%" style="font-size:16px">
+          <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+          Speaker Ground Truth</th></tr>
+          <tr><td><audio controls="" preload="none" style="height:30px">
+          <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+          </td></tr></tbody></table>
+          <p>Listen to the synthesized audio and chose a rating</p>
+          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <tbody><tr>
+          <th>Sentence</th>
+          <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
+          </tr>
+          </tbody></table><br>
+          <table border="0" width="20%" style="font-size:16px">
+              <tbody>
+                <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+                  Wavenet vocoder</th></tr>
+              <tr>
+              <td>
+              <audio controls="" preload="none" style="height:30px"><source src="https://sachp1.github.io/speaker2/will_smith.mp3" type="audio/mpeg">audio not supported</audio>
+                </td></tr>
+              </tbody></table>
+              <label for="sim_n">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_n" id="sim_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_n">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_n" id="speech_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_n">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_n" id="synth_n" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    <table border="0" width="20%" style="font-size:16px">
+            <tbody>
+              <tr>
+                <th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">WAVEGLOW vocoder</th></tr>
+              <tr>
+                <td><audio controls="" preload="none" style="height:30px">
+                  <source src="https://sachp1.github.io/speaker1/steve_jobs.mp3" type="audio/mpeg">audio not supported</audio>
+                  </td></tr>
+              </tbody>
+            </table>
+              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <select name="sim_g" id="sim_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+      <label for="speech_g">How would you rate the speech Quality (clarity)</label>
+              <select name="speech_g" id="speech_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+     <label for="synth_g">How would you rate the synthesized audio (is the sentence fully reconstructed)<br></label>
+              <select name="synth_g" id="synth_g" required="">
+                <option value="" selected disabled>Choose</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+              </select><br>
+    </div>
+    <br>
+  <div class='grrp'>
+    <h3>Speaker10</h3>
+        <table border="0" width="20%" style="font-size:16px">
+          <tbody><tr><th bgcolor="#3cb371" style="white-space:nowrap;height:30px;min-width: 240px">
+          Speaker Ground Truth</th></tr>
+          <tr><td><audio controls="" preload="none" style="height:30px">
+          <source src="https://sachp1.github.io/speaker2/will_smith_orig.mp3" type="audio/mpeg">audio not supported</audio>
+          </td></tr></tbody></table>
+          <p>Listen to the synthesized audio and chose a rating</p>
+          <br><table style="width:100%; font-size:12px; text-align: left;">
+          <tbody><tr>
+          <th>Sentence</th>
+          <th>"An intelligent city is an urban area that uses different types of electronic internet of things sensors"</th>
+          </tr>
+          </tbody></table><br>
           <table border="0" width="20%" style="font-size:16px">
               <tbody>
                 <tr>
@@ -218,4 +946,3 @@
     </div>
     <br>
   <button type="submit">Send Responses</button>
-
