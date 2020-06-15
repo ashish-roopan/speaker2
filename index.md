@@ -96,7 +96,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <label for="sim_g">How well does WAVEGLOW resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -186,7 +186,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <label for="sim_g">How well does WAVEGLOW resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -276,7 +276,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <label for="sim_g">How well does WAVEGLOW resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -366,7 +366,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <label for="sim_g">How well does WAVEGLOW resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -456,7 +456,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <label for="sim_g">How well does WAVEGLOW resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -546,7 +546,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <label for="sim_g">How well does WAVEGLOW resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -636,7 +636,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <label for="sim_g">How well does WAVEGLOW resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -726,7 +726,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <label for="sim_g">How well does WAVEGLOW resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -816,7 +816,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <label for="sim_g">How well does WAVEGLOW resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
@@ -906,7 +906,7 @@
                   </td></tr>
               </tbody>
             </table>
-              <label for="sim_g">How well does Wavenet resemble Ground truth</label>
+              <label for="sim_g">How well does WAVEGLOW resemble Ground truth</label>
               <select name="sim_g" id="sim_g" required="">
                 <option value="" selected disabled>Choose</option>
                 <option value="5">Excellent</option>
