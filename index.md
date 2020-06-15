@@ -30,7 +30,7 @@
 </head>
 <body>
 <div class="grrp1">
-  <form id="fs-frm" name="survey-form-test" accept-charset="utf-8" action="https://formspree.io/sachinprakash.itis@gmail.com" method="post">
+  <form id="fs-frm" name="survey-form-test" accept-charset="utf-8" action="https://formspree.io/sachinprakash313@gmail.com" method="post">
     <fieldset id="fs-frm-inputs" style="border:0px solid black;">
       <label for="email-address">Email Address</label>
       <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
